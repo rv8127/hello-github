@@ -74,7 +74,7 @@ def play_quiz(player_name, topic, attempt):
             else:  # Identification / Enumeration
                 user_answers = [a.strip().lower() for a in ans.split(",")]
                 correct_answers = [a.strip().lower() for a in q["answer"].split(",")]
-                if all(ca in user_answers for ca in correct_answers):
+                if set(user_answers) == set(correct_answers):
                     correct = True
 
             if correct:
