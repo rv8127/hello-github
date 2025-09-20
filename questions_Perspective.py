@@ -1,0 +1,72 @@
+# questions_Perspective.py
+
+quiz_data = {
+    "Perspective": {
+        "easy": [
+            {"question": "Perspective in art is mainly used to show:\n a) Color mixing\n b) Depth and distance\n c) Texture and pattern\n d) Light and shadow", "answer": "B"},
+            {"question": "Which type of perspective uses a single vanishing point?\n a) One-point perspective\n b) Two-point perspective\n c) Three-point perspective\n d) Atmospheric perspective", "answer": "A"},
+            {"question": "In two-point perspective, how many vanishing points are used?\n a) One\n b) Two\n c) Three\n d) None", "answer": "B"},
+            {"question": "The horizon line in perspective drawing represents:\n a) The ground texture\n b) The viewer’s eye level\n c) The light source\n d) The vanishing point", "answer": "B"},
+            {"question": "Which perspective is commonly used to draw tall buildings from below?\n a) One-point perspective\n b) Two-point perspective\n c) Three-point perspective\n d) Isometric perspective", "answer": "C"},
+            {"question": "Which of the following is NOT a type of perspective?\n a) One-point\n b) Two-point\n c) Zero-point\n d) Infinite-point", "answer": "D"},
+            {"question": "Parallel lines appear to meet at the:\n a) Horizon line\n b) Grid line\n c) Vanishing point\n d) Center of interest", "answer": "C"},
+            {"question": "The lines that lead to a vanishing point are called:\n a) Contour lines\n b) Orthogonal lines\n c) Horizontal lines\n d) Parallel lines", "answer": "B"},
+            {"question": "Atmospheric perspective creates depth by changing:\n a) Color, value, and detail\n b) Size, texture, and shape\n c) Lines, angles, and symmetry\n d) Horizon, vanishing points, and grids", "answer": "A"},
+            {"question": "A drawing of a road narrowing in the distance shows:\n a) Foreshortening\n b) Symmetry\n c) One-point perspective\n d) Contrast", "answer": "C"},
+            {"question": "Which perspective is often used in comics and action scenes to show dramatic angles?\n a) Isometric\n b) Atmospheric\n c) Three-point\n d) Linear", "answer": "C"},
+            {"question": "Objects drawn closer to the vanishing point appear:\n a) Larger\n b) Smaller\n c) The same size\n d) Brighter", "answer": "B"},
+            {"question": "In one-point perspective, the sides of a cube that face the viewer are drawn as:\n a) Squares/rectangles\n b) Triangles\n c) Circles\n d) Irregular shapes", "answer": "A"},
+            {"question": "Which of these is an example of zero-point perspective?\n a) Road receding into the horizon\n b) Landscape with mountains\n c) Box drawn with depth\n d) Building in a city street", "answer": "B"},
+            {"question": "Which type of perspective is commonly used in architectural drawings?\n a) One-point\n b) Two-point\n c) Three-point\n d) All of the above", "answer": "D"},
+            {"question": "What does “foreshortening” mean in perspective drawing?\n a) Making colors lighter\n b) Making distant objects blurry\n c) Distorting an object to show depth\n d) Drawing with smaller strokes", "answer": "C"},
+            {"question": "In two-point perspective, vertical lines remain:\n a) Parallel\n b) Slanted\n c) Converging\n d) Invisible", "answer": "A"},
+            {"question": "The point where the sky meets the ground in a drawing is called the:\n a) Horizon line\n b) Orthogonal line\n c) Guideline\n d) Center line", "answer": "A"},
+            {"question": "In three-point perspective, the third vanishing point usually represents:\n a) Light source\n b) Height/depth\n c) Horizon\n d) Shadows", "answer": "B"},
+            {"question": "Which perspective technique shows objects closer as larger and farther as smaller?\n a) Linear perspective\n b) Value contrast\n c) Overlapping\n d) Shading", "answer": "A"}
+        ],
+        "medium": [
+            {"question": "The imaginary line at the viewer’s eye level.", "answer": "HORIZON LINE"},
+            {"question": "The point where parallel lines appear to converge.", "answer": "VANISHING POINT"},
+            {"question": "The type of perspective with one vanishing point.", "answer": "ONE-POINT PERSPECTIVE"},
+            {"question": "The type of perspective with two vanishing points.", "answer": "TWO-POINT PERSPECTIVE"},
+            {"question": "The type of perspective with three vanishing points.", "answer": "THREE-POINT PERSPECTIVE"},
+            {"question": "The technique of drawing objects so they appear shorter when viewed from an angle.", "answer": "FORESHORTENING"},
+            {"question": "Perspective type often used in landscape drawings with no vanishing point.", "answer": "ATMOSPHERIC PERSPECTIVE"},
+            {"question": "The lines that connect objects to a vanishing point.", "answer": "ORTHOGONAL LINES"},
+            {"question": "The first person to mathematically study linear perspective during the Renaissance.", "answer": "FILIPPO BRUNELLESCHI"},
+            {"question": "A drawing system where objects keep their actual scale without vanishing points.", "answer": "ISOMETRIC DRAWING"},
+            {"question": "The perspective technique that reduces detail and contrast with distance.", "answer": "ATMOSPHERIC PERSPECTIVE"},
+            {"question": "A cube drawn with two-point perspective will have visible _____ sides.", "answer": "TWO"},
+            {"question": "The perspective type often used in video games and CAD design.", "answer": "ISOMETRIC PERSPECTIVE"},
+            {"question": "The perspective technique used to make train tracks appear to meet in the distance.", "answer": "ONE-POINT PERSPECTIVE"},
+            {"question": "A perspective method where objects overlap to create depth.", "answer": "OVERLAPPING"},
+            {"question": "The illusion where distant mountains appear bluish and hazy.", "answer": "ATMOSPHERIC PERSPECTIVE"},
+            {"question": "The name of the perspective technique often used in anime for dramatic height shots.", "answer": "THREE-POINT PERSPECTIVE"},
+            {"question": "The center of attention in a perspective drawing.", "answer": "FOCAL POINT"},
+            {"question": "A type of perspective drawing where the viewer looks directly down at objects.", "answer": "BIRD’S-EYE VIEW"},
+            {"question": "The perspective technique that helps artists measure equal spacing on receding lines.", "answer": "MEASURING POINTS / DIAGONAL METHOD"}
+        ],
+        "hard": [
+            {"question": "List the 3 main types of linear perspective.", "answer": "ONE-POINT, TWO-POINT, THREE-POINT"},
+            {"question": "List 3 features of one-point perspective.", "answer": "ONE VANISHING POINT, FRONT FACE FLAT, DEPTH LINES RECEDE"},
+            {"question": "List 3 features of two-point perspective.", "answer": "TWO VANISHING POINTS, EDGES CONVERGE, CORNER FACES VIEWER"},
+            {"question": "List 3 features of three-point perspective.", "answer": "THREE VANISHING POINTS, DRAMATIC TILT, USED FOR TALL OBJECTS"},
+            {"question": "List 3 examples of foreshortened objects in art.", "answer": "HUMAN ARM STRETCHED FORWARD, A SPEAR, FORESHORTENED LEG IN ART"},
+            {"question": "List 3 ways to create depth without linear perspective.", "answer": "OVERLAPPING, SIZE SCALING, VALUE CONTRAST"},
+            {"question": "List 3 artists who studied or applied perspective in the Renaissance.", "answer": "BRUNELLESCHI, LEONARDO DA VINCI, ALBRECHT DÜRER"},
+            {"question": "List 3 professions that commonly use perspective drawing.", "answer": "ARCHITECTS, ENGINEERS, GAME DESIGNERS"},
+            {"question": "List 3 common mistakes beginners make in perspective drawing.", "answer": "WRONG HORIZON LINE, INCONSISTENT VANISHING POINTS, PARALLEL LINES NOT CONVERGING"},
+            {"question": "List 3 examples of zero-point perspective scenes.", "answer": "MOUNTAIN LANDSCAPE, STARS IN THE SKY, ROLLING HILLS"},
+            {"question": "List the 3 vanishing points in three-point perspective (directions).", "answer": "LEFT, RIGHT, VERTICAL"},
+            {"question": "List 3 everyday objects you can practice with one-point perspective.", "answer": "A ROAD, A HALLWAY, A TABLE"},
+            {"question": "List 3 everyday objects you can practice with two-point perspective.", "answer": "A CUBE, A HOUSE, A STREET CORNER"},
+            {"question": "List 3 everyday objects you can practice with three-point perspective.", "answer": "A SKYSCRAPER, A TELEPHONE POLE, A TALL TREE"},
+            {"question": "List 3 rules to remember when drawing perspective.", "answer": "KEEP HORIZON CONSISTENT, LINES CONVERGE, USE VANISHING POINTS"},
+            {"question": "List 3 ways atmospheric perspective is shown in landscapes.", "answer": "OBJECTS FADE IN DETAIL, DISTANT OBJECTS LIGHTER IN VALUE, DISTANT OBJECTS BLUER"},
+            {"question": "List 3 examples of perspective in photography.", "answer": "ROAD NARROWING, TALL BUILDING FROM BELOW, PORTRAIT WITH FORESHORTENING"},
+            {"question": "List 3 reasons why perspective is important in art.", "answer": "REALISM, PROPORTION, DEPTH"},
+            {"question": "List 3 tools artists use to help draw perspective.", "answer": "RULER, PERSPECTIVE GRID, DRAWING SOFTWARE"},
+            {"question": "List 3 visual cues that tell the viewer an object is closer.", "answer": "LARGER SIZE, MORE DETAIL, OVERLAPPING FOREGROUND"}
+        ]
+    }
+}
