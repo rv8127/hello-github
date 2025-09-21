@@ -16,9 +16,14 @@ rankings = []  # list of tuples (name, attempt, score, total_questions)
 def play_quiz(player_name, topic, attempt):
     score = 0
 
-    topic_key = topic.strip()
-    if topic_key not in quiz_data:
-        print(f"⚠️ Invalid topic '{topic_key}', defaulting to Color Theory.")
+    # Map lowercase input to actual topic keys
+    topic_map = {t.lower(): t for t in quiz_data.keys()}
+
+    topic_key = topic.strip().lower()
+    if topic_key in topic_map:
+        topic_key = topic_map[topic_key]  # proper capitalization
+    else:
+        print(f"⚠️ Invalid topic '{topic}', defaulting to Color Theory.")
         topic_key = "Color Theory"
 
     # Run from easy → medium → hard automatically
