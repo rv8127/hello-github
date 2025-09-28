@@ -64,7 +64,7 @@ quiz_data = {
             {"question": "List 3 factors that affect how colors are perceived.", "answer": "Light, Background, Surrounding colors"},
             {"question": "List 3 uses of color in visual arts.", "answer": "Emotion, Depth, Emphasis"},
             {"question": "List 3 examples of monochromatic color schemes (any base + tints/shades).", "answer": "Blue + light blue + dark blue"},
-            {"question": "List 3 ways artists create contrast using color.", "answer": "Complementary colors, Warm vs. Cool, Light vs. Dark"}
+            {"question": "List 3 ways artists create contrast using color.", "answer": "Complementary colors, Warm vs Cool, Light vs Dark"}
         ]
     }
 }
