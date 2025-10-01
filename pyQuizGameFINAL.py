@@ -1,3 +1,11 @@
+#ART QUIZ GAME (DESIGN THINKING PROJECT)
+#By: 
+# Alcasid, Rovine Gabriel E.
+# Rama, John Wilfred Y.
+# Sanchez, Jerlie Mae A.
+
+#-------------------------------------------MAIN GAME FILE-------------------------------------------#
+
 #Import "random" module for shuffling questions and choices
 import random
 
@@ -23,11 +31,11 @@ def play_quiz(player_name, attempt):
 
     #Shows available topics and prompts user to select one (a, b, c...)
     while True:
-        print("\nAvailable topics:")
+        print("\nAvailable topics (Pick by letter only!):")
         for letter, t in topic_letter_map.items():
             print(f" {letter}) {t}")
 
-        topic_letter = input("Choose a topic by letter: ").strip().lower()
+        topic_letter = input("Choose a topic: ").strip().lower()
         if topic_letter in topic_letter_map:
             topic_key = topic_letter_map[topic_letter]
             break
@@ -40,7 +48,7 @@ def play_quiz(player_name, attempt):
 
     #Shows available difficulty levels and prompts user to select one
     while True:
-        print("\nAvailable difficulty levels:")
+        print("\nAvailable difficulty levels (Pick by letter only!):")
         for letter, lvl in level_letter_map.items():
             print(f" {letter}) {lvl.title()}")
 
@@ -68,7 +76,8 @@ def play_quiz(player_name, attempt):
 
     # ---- ASK QUESTIONS ----
     for i, q in enumerate(selected_questions, start=1):
-        print(f"{i}. {q['question']}")
+        print("\n========================================\n")
+        print(f"{i}. {q['question']}\n")
 
         options = q.get("options", [])
         if options:  # Multiple choice
@@ -81,14 +90,24 @@ def play_quiz(player_name, attempt):
             print("   (Type your answer. For multiple answers, separate by commas)")
 
         print("   (Type 'STOP QUIZ' to quit anytime)\n")
-        ans = input("Your Answer: ").strip() #This is where the user inputs their answer
+        print("\n---------------------------------------\n")
 
-        # ---- CHECK FOR STOP QUIZ ----
-        if ans.upper() == "STOP QUIZ":
-            print("\n👋 Quiz stopped by user.\n")
-            total_questions = len(selected_questions)
-            rankings.append((player_name, attempt, score, total_questions))
-            return False
+       # ---- ASK FOR ANSWER ----
+        while True:
+            ans = input("Your Answer: ").strip()
+
+            # check if user typed STOP QUIZ
+            if ans.upper() == "STOP QUIZ":
+                print("\n👋 Quiz stopped by user.\n")
+                total_questions = len(selected_questions)
+                rankings.append((player_name, attempt, score, total_questions))
+                return False
+
+            # if empty, re-ask
+            if ans == "":
+                print("⚠️ You must enter an answer! Please try again.\n")
+            else:
+                break
 
         # ---- CHECK ANSWER ----
         correct = False
