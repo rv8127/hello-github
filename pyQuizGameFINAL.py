@@ -81,7 +81,7 @@ def play_quiz(player_name, attempt):
 
         options = q.get("options", [])
         if options:  # Multiple choice
-            random.shuffle(options)
+            
             option_labels = ["a", "b", "c", "d", "e", "f"]
             for j, opt in enumerate(options):
                 print(f"   {option_labels[j]}) {opt}")
