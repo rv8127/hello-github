@@ -62,7 +62,7 @@ quiz_data = {
             {"question": "List 3 techniques for creating dramatic backlighting.", "answer": "Backlight, angle, low fill light"},
             {"question": "List 3 characteristics of high-key lighting.", "answer": "Brightness, minimal shadows, cheerful mood"},
             {"question": "Name the 2 categories of lighting quality.", "answer": "Hard, Soft"},
-            {"question": "List 3 characteristics of Split lighting.", "answer": "Half light/half shadow, dramatic, side angle"},
+            {"question": "List 3 characteristics of Split lighting.", "answer": "Half light, dramatic, side angle"},
             {"question": "List 2 adjustments to soften harsh shadows.", "answer": "Lower key light, use fill light"},
             {"question": "List 3 functions of a reflector.", "answer": "Bounce light, fill shadows, highlight hair"},
             {"question": "List 3 differences between continuous and flash lighting.", "answer": "Continuous vs. flash, heat, cost"},

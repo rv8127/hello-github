@@ -126,7 +126,7 @@ quiz_data = {
         ],
         "hard": [
             {"question": "List the three main parts of the human arm.", "answer": "Humerus, Radius, Ulna"},
-            {"question": "List the bones found in the human leg.", "answer": "Femur, Tibia, Fibula, Patella"},
+            {"question": "List the 4 bones found in the human leg.", "answer": "Femur, Tibia, Fibula, Patella"},
             {"question": "Name three muscles found in the upper body.", "answer": "Biceps, Triceps, Deltoids"},
             {"question": "List the four main sections of the spine.", "answer": "Cervical, Thoracic, Lumbar, Sacral"},
             {"question": "List three muscles found in the lower body.", "answer": "Quadriceps, Hamstrings, Calves"},
@@ -143,7 +143,7 @@ quiz_data = {
             {"question": "Name three muscles located in the back.", "answer": "Latissimus dorsi, Trapezius, Erector spinae"},
             {"question": "List the bones of the hand.", "answer": "Carpals, Metacarpals, Phalanges"},
             {"question": "Name the bones in the foot.", "answer": "Tarsals, Metatarsals, Phalanges"},
-            {"question": "List the bones that form the hip joint.", "answer": "Pelvis, Femur"},
+            {"question": "List the  2 bones that form the hip joint.", "answer": "Pelvis, Femur"},
             {"question": "Name three organs protected by the ribcage.", "answer": "Heart, Lungs, Liver"}
         ]
     }

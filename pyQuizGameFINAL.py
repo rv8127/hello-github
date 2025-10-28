@@ -81,13 +81,13 @@ def play_quiz(player_name, attempt):
 
         options = q.get("options", [])
         if options:  # Multiple choice
-            
             option_labels = ["a", "b", "c", "d", "e", "f"]
             for j, opt in enumerate(options):
                 print(f"   {option_labels[j]}) {opt}")
             print("   (Type the letter of your answer)")
         else:
             print("   (Type your answer. For multiple answers, separate by commas)")
+            print("   (For Two-Word Answers, separate by a space (  ) between the words)")
 
         print("   (Type 'STOP QUIZ' to quit anytime)\n")
         print("\n---------------------------------------\n")
@@ -100,6 +100,12 @@ def play_quiz(player_name, attempt):
             if ans.upper() == "STOP QUIZ":
                 print("\n👋 Quiz stopped by user.\n")
                 total_questions = len(selected_questions)
+
+                answered_so_far = i  # or track manually in your loop
+
+                print(f"📊 Progress: You answered {answered_so_far} out of {total_questions} questions.")
+                print(f"✅ Your current score: {score}/{answered_so_far}\n")
+
                 rankings.append((player_name, attempt, score, total_questions))
                 return False
 
