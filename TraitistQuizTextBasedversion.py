@@ -170,6 +170,23 @@ def main():
     slow_print("\n🎨 Welcome to Traitist! 🎨", 0.03)
     name = input("Enter your name: ").strip() or "Player"
 
+    slow_print(f"\n👋 Hello, {name}! Welcome to Traitist — your ultimate Art Quiz experience!\n", 0.03)
+    time.sleep(1)
+
+    slow_print("📝 Before we start, here are some quick instructions:", 0.03)
+    time.sleep(0.5)
+
+    slow_print("• You have 3 tries per difficulty.", 0.03)
+    slow_print("• If you use up all 3 tries, you can’t continue on that difficulty, so choose wisely!", 0.03)
+    slow_print("• You only have to answer 20 questions to test your knowledge.", 0.03)
+    slow_print("• Correct answer = +1 point", 0.03)
+    slow_print("• Wrong answer = 0 points", 0.03)
+    time.sleep(0.5)
+
+
+    slow_print("\nGood luck, and enjoy the quiz! 🎨✨\n", 0.03)
+    time.sleep(1)
+
     while True:
         result = play_quiz(name, attempt)
 
