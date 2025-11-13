@@ -1,4 +1,4 @@
-# Topic: Elements of Art (Art Quiz)
+#Elements of art question file
 quiz_data = {
     "Elements of Art": {
         "easy": [
@@ -121,7 +121,7 @@ quiz_data = {
             {"question": "List 2 shape categories.", "answer": "Geometric, Organic"},
 
             {"question": "List 3 color schemes.", "answer": "Complementary, Analogous, Monochromatic"},
-            
+
             {"question": "List 2 texture categories.", "answer": "Actual, Implied"}
         ]
     }
