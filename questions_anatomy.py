@@ -101,49 +101,95 @@ quiz_data = {
                 "options": ["a) Clavicle", "b) Sternum", "c) Scapula", "d) Humerus"],
                 "answer": "c) Scapula"
             }
+
         ],
+
+        
         "medium": [
             {"question": "Name the bone found in the thigh.", "answer": "Femur"},
+
             {"question": "What is the flat bone in the front center of the chest called?", "answer": "Sternum"},
+
             {"question": "What is the bone commonly known as the shinbone?", "answer": "Tibia"},
+
             {"question": "What is the group of bones forming the spine called?", "answer": "Vertebrae"},
+
             {"question": "What is the scientific term for the collarbone?", "answer": "Clavicle"},
+
             {"question": "What organ is protected by the skull?", "answer": "Brain"},
+
             {"question": "What is the bone located in the lower jaw called?", "answer": "Mandible"},
+
             {"question": "Which muscle is located at the back of the upper arm?", "answer": "Triceps"},
+
             {"question": "What type of joint is the elbow?", "answer": "Hinge joint"},
+
             {"question": "What is the largest organ inside the human body?", "answer": "Liver"},
+
             {"question": "Which muscle is located at the front of the upper arm?", "answer": "Biceps"},
+
             {"question": "What is the scientific name for the shoulder blade?", "answer": "Scapula"},
+
             {"question": "Which part of the body contains the pelvis?", "answer": "Hip region"},
+
             {"question": "What type of tissue connects muscles to bones?", "answer": "Tendons"},
+
             {"question": "What type of tissue connects bones to other bones?", "answer": "Ligaments"},
+
             {"question": "What part of the body is also called the kneecap?", "answer": "Patella"},
+
             {"question": "What organ is mainly responsible for pumping blood?", "answer": "Heart"},
+
             {"question": "Which muscle is located at the chest area?", "answer": "Pectorals"},
+
             {"question": "What organ is located inside the skull?", "answer": "Brain"},
+
             {"question": "What part of the skeleton forms the lower backbone?", "answer": "Lumbar vertebrae"}
         ],
+
+
+
+
+
         "hard": [
             {"question": "List the three main parts of the human arm.", "answer": "Humerus, Radius, Ulna"},
+            
             {"question": "List the 4 bones found in the human leg.", "answer": "Femur, Tibia, Fibula, Patella"},
+
             {"question": "Name three muscles found in the upper body.", "answer": "Biceps, Triceps, Deltoids"},
+
             {"question": "List the four main sections of the spine.", "answer": "Cervical, Thoracic, Lumbar, Sacral"},
+
             {"question": "List three muscles found in the lower body.", "answer": "Quadriceps, Hamstrings, Calves"},
+
             {"question": "Name three bones that protect vital organs.", "answer": "Skull, Ribs, Sternum"},
+
             {"question": "List the bones of the forearm.", "answer": "Radius, Ulna"},
+
             {"question": "Name the three types of muscle tissue.", "answer": "Skeletal, Smooth, Cardiac"},
+
             {"question": "List the four muscles of the quadriceps group.", "answer": "Rectus femoris, Vastus lateralis, Vastus medialis, Vastus intermedius"},
+
             {"question": "Name three parts of the pelvis.", "answer": "Ilium, Ischium, Pubis"},
+
             {"question": "List the bones that make up the rib cage.", "answer": "Sternum, Ribs, Thoracic vertebrae"},
+
             {"question": "Name three parts of the skull.", "answer": "Frontal bone, Temporal bone, Occipital bone"},
+
             {"question": "List the three bones of the shoulder girdle.", "answer": "Clavicle, Scapula, Humerus"},
+
             {"question": "Name the bones in the lower leg.", "answer": "Tibia, Fibula"},
+
             {"question": "List the three types of joints based on movement.", "answer": "Fibrous, Cartilaginous, Synovial"},
+
             {"question": "Name three muscles located in the back.", "answer": "Latissimus dorsi, Trapezius, Erector spinae"},
+
             {"question": "List the bones of the hand.", "answer": "Carpals, Metacarpals, Phalanges"},
+
             {"question": "Name the bones in the foot.", "answer": "Tarsals, Metatarsals, Phalanges"},
+
             {"question": "List the  2 bones that form the hip joint.", "answer": "Pelvis, Femur"},
+
             {"question": "Name three organs protected by the ribcage.", "answer": "Heart, Lungs, Liver"}
         ]
     }
