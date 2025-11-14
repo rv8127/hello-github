@@ -1,106 +1,46 @@
 quiz_data = {
     "Basic Composition of Anatomy": {
         "easy": [
-            {
-                "question": "Which is the central part of the body that supports the head and trunk?",
-                "options": ["a) Skull", "b) Spine", "c) Pelvis", "d) Ribs"],
-                "answer": "b) Spine"
-            },
-            {
-                "question": "What part of the body contains the brain?",
-                "options": ["a) Skull", "b) Chest", "c) Spine", "d) Pelvis"],
-                "answer": "a) Skull"
-            },
-            {
-                "question": "Which bones protect the heart and lungs?",
-                "options": ["a) Spine", "b) Ribs", "c) Skull", "d) Arms"],
-                "answer": "b) Ribs"
-            },
-            {
-                "question": "Which joint connects the arm to the shoulder?",
-                "options": ["a) Elbow", "b) Hip", "c) Shoulder joint", "d) Knee"],
-                "answer": "c) Shoulder joint"
-            },
-            {
-                "question": "What is the longest bone in the human body?",
-                "options": ["a) Spine", "b) Femur", "c) Tibia", "d) Humerus"],
-                "answer": "b) Femur"
-            },
-            {
-                "question": "Which part of the skeleton forms the base of the body?",
-                "options": ["a) Skull", "b) Pelvis", "c) Spine", "d) Shoulder"],
-                "answer": "b) Pelvis"
-            },
-            {
-                "question": "Which muscle is primarily used when bending the arm?",
-                "options": ["a) Triceps", "b) Biceps", "c) Deltoid", "d) Quadriceps"],
-                "answer": "b) Biceps"
-            },
-            {
-                "question": "What part of the body connects the thigh and lower leg?",
-                "options": ["a) Elbow", "b) Knee", "c) Hip", "d) Ankle"],
-                "answer": "b) Knee"
-            },
-            {
-                "question": "Which part of the body helps maintain balance and posture?",
-                "options": ["a) Pelvis", "b) Spine", "c) Skull", "d) Shoulder"],
-                "answer": "b) Spine"
-            },
-            {
-                "question": "Which organ is housed inside the ribcage?",
-                "options": ["a) Brain", "b) Heart", "c) Liver", "d) Kidneys"],
-                "answer": "b) Heart"
-            },
-            {
-                "question": "What muscle group is located at the front of the thigh?",
-                "options": ["a) Hamstrings", "b) Quadriceps", "c) Glutes", "d) Calves"],
-                "answer": "b) Quadriceps"
-            },
-            {
-                "question": "Which part of the body is commonly called the collarbone?",
-                "options": ["a) Scapula", "b) Clavicle", "c) Sternum", "d) Humerus"],
-                "answer": "b) Clavicle"
-            },
-            {
-                "question": "Which part of the skeleton protects the brain?",
-                "options": ["a) Spine", "b) Skull", "c) Ribs", "d) Pelvis"],
-                "answer": "b) Skull"
-            },
-            {
-                "question": "Which muscle is used to extend the arm?",
-                "options": ["a) Biceps", "b) Triceps", "c) Deltoid", "d) Pectorals"],
-                "answer": "b) Triceps"
-            },
-            {
-                "question": "Which part of the body is also called the kneecap?",
-                "options": ["a) Tibia", "b) Patella", "c) Femur", "d) Fibula"],
-                "answer": "b) Patella"
-            },
-            {
-                "question": "What connects bones to other bones?",
-                "options": ["a) Muscles", "b) Ligaments", "c) Tendons", "d) Cartilage"],
-                "answer": "b) Ligaments"
-            },
-            {
-                "question": "What connects muscles to bones?",
-                "options": ["a) Ligaments", "b) Cartilage", "c) Tendons", "d) Discs"],
-                "answer": "c) Tendons"
-            },
-            {
-                "question": "What is the bone found in the upper arm?",
-                "options": ["a) Humerus", "b) Radius", "c) Ulna", "d) Clavicle"],
-                "answer": "a) Humerus"
-            },
-            {
-                "question": "Which part of the skeleton forms the chest area?",
-                "options": ["a) Pelvis", "b) Ribcage", "c) Spine", "d) Scapula"],
-                "answer": "b) Ribcage"
-            },
-            {
-                "question": "What is the scientific term for the shoulder blade?",
-                "options": ["a) Clavicle", "b) Sternum", "c) Scapula", "d) Humerus"],
-                "answer": "c) Scapula"
-            }
+            {"question": "Which is the central part of the body that supports the head and trunk?\n a) Skull\n b) Spine\n c) Pelvis\n d) Ribs", "answer": "b"},
+
+            {"question": "What part of the body contains the brain?\n a) Skull\n b) Chest\n c) Spine\n d) Pelvis", "answer": "a"},
+
+            {"question": "Which bones protect the heart and lungs?\n a) Spine\n b) Ribs\n c) Skull\n d) Arms", "answer": "b"},
+
+            {"question": "Which joint connects the arm to the shoulder?\n a) Elbow\n b) Hip\n c) Shoulder joint\n d) Knee", "answer": "c"},
+
+            {"question": "What is the longest bone in the human body?\n a) Spine\n b) Femur\n c) Tibia\n d) Humerus", "answer": "b"},
+
+            {"question": "Which part of the skeleton forms the base of the body?\n a) Skull\n b) Pelvis\n c) Spine\n d) Shoulder", "answer": "b"},
+
+            {"question": "Which muscle is primarily used when bending the arm?\n a) Triceps\n b) Biceps\n c) Deltoid\n d) Quadriceps", "answer": "b"},
+
+            {"question": "What part of the body connects the thigh and lower leg?\n a) Elbow\n b) Knee\n c) Hip\n d) Ankle", "answer": "b"},
+
+            {"question": "Which part of the body helps maintain balance and posture?\n a) Pelvis\n b) Spine\n c) Skull\n d) Shoulder", "answer": "b"},
+
+            {"question": "Which organ is housed inside the ribcage?\n a) Brain\n b) Heart\n c) Liver\n d) Kidneys", "answer": "b"},
+
+            {"question": "What muscle group is located at the front of the thigh?\n a) Hamstrings\n b) Quadriceps\n c) Glutes\n d) Calves", "answer": "b"},
+
+            {"question": "Which part of the body is commonly called the collarbone?\n a) Scapula\n b) Clavicle\n c) Sternum\n d) Humerus", "answer": "b"},
+
+            {"question": "Which part of the skeleton protects the brain?\n a) Spine\n b) Skull\n c) Ribs\n d) Pelvis", "answer": "b"},
+
+            {"question": "Which muscle is used to extend the arm?\n a) Biceps\n b) Triceps\n c) Deltoid\n d) Pectorals", "answer": "b"},
+
+            {"question": "Which part of the body is also called the kneecap?\n a) Tibia\n b) Patella\n c) Femur\n d) Fibula", "answer": "b"},
+
+            {"question": "What connects bones to other bones?\n a) Muscles\n b) Ligaments\n c) Tendons\n d) Cartilage", "answer": "b"},
+
+            {"question": "What connects muscles to bones?\n a) Ligaments\n b) Cartilage\n c) Tendons\n d) Discs", "answer": "c"},
+
+            {"question": "What is the bone found in the upper arm?\n a) Humerus\n b) Radius\n c) Ulna\n d) Clavicle", "answer": "a"},
+
+            {"question": "Which part of the skeleton forms the chest area?\n a) Pelvis\n b) Ribcage\n c) Spine\n d) Scapula", "answer": "b"},
+            
+            {"question": "What is the scientific term for the shoulder blade?\n a) Clavicle\n b) Sternum\n c) Scapula\n d) Humerus", "answer": "c"}
+
 
         ],
 

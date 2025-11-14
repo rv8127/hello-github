@@ -1,3 +1,4 @@
+
 #Color Theory question file
 quiz_data = {
     "Color Theory": {

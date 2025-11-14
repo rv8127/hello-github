@@ -142,23 +142,32 @@ def play_quiz(player_name, attempt):
             else:
                 slow_print("\n💀 No lives left! Game over for this round.\n", 0.03)
                 time.sleep(1)
-                slow_print(f"📊 Final score: {score}/{i}\n", 0.03)
-                rankings.append((player_name, attempt, score, num_questions))
+
+                # Save this attempt
+                rankings.append((player_name, attempt, topic_key, difficulty_key, score, num_questions))
+
+                # Display ALL past attempts
+                slow_print("📊 Your Final Scores So Far:\n", 0.03)
+                for r in rankings:
+                    slow_print(f"📊 Final score (Attempt {r[1]}): {r[4]}/{r[5]} "
+                            f"(Topic: {r[2]}), (Difficulty: {r[3]})", 0.02)
+                    
                 return "out_of_lives"  # Special flag for losing all lives
 
         time.sleep(1)  # small pause before next question
 
     # ---- QUIZ COMPLETED ----
     time.sleep(1)
-    slow_print(f"\n🏆 Final Score for {player_name}: {score}/{num_questions} (Attempt {attempt})", 0.03)
-    rankings.append((player_name, attempt, topic_key, score, num_questions))
+    slow_print(f"\n🏆 Final Score for {player_name}: {score}/{num_questions} (Attempt {attempt} - {topic_key}, {difficulty_key})", 0.03)
+    rankings.append((player_name, attempt, topic_key, difficulty_key, score, num_questions))
 
     # ---- DISPLAY RANKINGS ----
     time.sleep(1)
     print("\n📊 Current Rankings:")
     for r in rankings:
         #slow_print(f"{r[0]} - Attempt {r[1]}: {r[2]}/{r[3]}", 0.02)
-        slow_print(f"{r[0]} - Attempt {r[1]} ({r[2]}): {r[3]}/{r[4]}", 0.02)
+        #slow_print(f"{r[0]} - Attempt {r[1]} ({r[2]}): {r[3]}/{r[4]}", 0.02)
+        slow_print(f"{r[0]} - Attempt {r[1]} ({r[2]} | {r[3]}): {r[4]}/{r[5]}", 0.02)
     print("\n")
 
     return "completed"
@@ -177,7 +186,8 @@ def main():
     time.sleep(0.5)
 
     slow_print("• You have 3 tries per difficulty.", 0.03)
-    slow_print("• If you use up all 3 tries, you can’t continue on that difficulty, so choose wisely!", 0.03)
+    slow_print("• If all 3 lives are used, the quiz game is over and you must start again", 0.03)
+    #slow_print("• If you use up all 3 tries, you can’t continue on that difficulty, so choose wisely!", 0.03)
     slow_print("• You only have to answer 20 questions to test your knowledge.", 0.03)
     slow_print("• Correct answer = +1 point", 0.03)
     slow_print("• Wrong answer = 0 points", 0.03)
