@@ -12,7 +12,7 @@ from questions_basicLightingStyles import quiz_data as bls_quiz
 # Merge all topics into one dictionary
 quiz_data = {**ct_quiz, **p_quiz, **ba_quiz, **ea_quiz, **bls_quiz}
 
-# Rankings list format: (player_name, attempt, score, total_questions)
+# Rankings list contains like player_name, attempt, score, total_questions, etc.
 rankings = []
 
 
@@ -143,10 +143,10 @@ def play_quiz(player_name, attempt):
                 slow_print("\n💀 No lives left! Game over for this round.\n", 0.03)
                 time.sleep(1)
 
-                # Save this attempt
+                #Player's final score and record it if run out of lives
                 rankings.append((player_name, attempt, topic_key, difficulty_key, score, num_questions))
 
-                # Display ALL past attempts
+                # Display ALL past attempts if player ran out of lives
                 slow_print("📊 Your Final Scores So Far:\n", 0.03)
                 for r in rankings:
                     slow_print(f"📊 Final score (Attempt {r[1]}): {r[4]}/{r[5]} "
@@ -165,8 +165,6 @@ def play_quiz(player_name, attempt):
     time.sleep(1)
     print("\n📊 Current Rankings:")
     for r in rankings:
-        #slow_print(f"{r[0]} - Attempt {r[1]}: {r[2]}/{r[3]}", 0.02)
-        #slow_print(f"{r[0]} - Attempt {r[1]} ({r[2]}): {r[3]}/{r[4]}", 0.02)
         slow_print(f"{r[0]} - Attempt {r[1]} ({r[2]} | {r[3]}): {r[4]}/{r[5]}", 0.02)
     print("\n")
 
